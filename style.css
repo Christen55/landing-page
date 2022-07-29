@@ -4,7 +4,11 @@ margin: 0;
 display: flex;
 flex-direction: column;
 }
+a{
+    text-decoration: none;
+    color: #E5E7EB;
 
+}
 .blue
 {
     display: flex;
@@ -42,7 +46,10 @@ button{
     border-radius: 5px;
     border:none;
 }
-
+button:hover{
+    background-color: #073d94;
+    box-shadow: 0 0 10px rgba(19, 18, 18, 0.5);
+}
 
 .ad{
     margin:100px 300px;
@@ -173,15 +180,20 @@ ul{
 @media screen and (max-width: 800px){
     .quote{
         padding: 0px 50px;
+        font-size: 30px;
     }
     .ad{
         margin:100px 50px;
+        padding: 30px 50px;
     }
     .blue{
         font-size: 14px;
     }
     .name{
         font-size: 36px;
+    }
+    .placeholder{
+        padding: 3px;
     }
     
 }
