@@ -64,7 +64,6 @@ button:hover{
 }
 .ad button{
     border:2px solid #E5E7EB;  
-    
 }
 .ad .header{
     margin: 0px;
@@ -194,12 +193,18 @@ ul{
     }
     .placeholder{
         text-align: center;
+        margin-left:-10px;
         }
+        
    .ad button{
-   flex:34%
+   flex:35%
+   }
+   
+   button{
+   width:76px;
    }
    
    ul{
-   margin:10px 0px;
+   margin:10px -10px;
    }
 }
