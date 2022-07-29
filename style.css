@@ -198,4 +198,8 @@ ul{
    .ad button{
    flex:40%
    }
+   
+   ul{
+   margin:10px 0px;
+   }
 }
