@@ -184,7 +184,7 @@ ul{
     }
     .ad{
         margin:100px 50px;
-        padding: 30px 50px;
+        padding: 30px 40px;
     }
     .blue{
         font-size: 14px;
@@ -193,7 +193,7 @@ ul{
         font-size: 36px;
     }
     .placeholder{
-        padding: 3px;
+        padding: 4px;
     }
     
 }
