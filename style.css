@@ -36,7 +36,7 @@ body{
     .header{
         font-size: 24px;
         color: #F9FAF8;
-        margin: 30px 0px;
+        margin: 0px;
     }
     button{
         color: #E5E7EB;
@@ -69,11 +69,10 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0% 20%;
         flex:1;
     }
-    .ad .header{
-        margin: 0px;
-    }
+ 
     .square{
         width: 130px;
         height: 130px;
@@ -120,7 +119,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 1% 15%;
+        padding: 0% 15%;
     }
     .quote span{
         font-style: normal;
@@ -139,7 +138,7 @@ body{
     .title{
         display: flex;
         justify-content: space-between;
-        padding:0px 110px;
+        padding:0px 7%;
         align-items:center;
         
     }
@@ -154,7 +153,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items:center;
-        padding:8px 110px 30px 110px;
+        padding:8px 7% 30px 7%;
         
     }
     
@@ -179,10 +178,7 @@ body{
         justify-content: space-between;
     
     }
-    .ad .text{
-        flex: 50%;
-
-    }
+  
     
     @media screen and (max-width: 800px){
         .quote{
@@ -201,27 +197,15 @@ body{
             text-align: center;
             flex-basis:40%;
             }
-            
-       .title{
-           padding: 0px 40px;
-       }
-
-        .introduction{
-            padding:8px 40px 30px 40px;
-       }
-
-       button{
-       width:76px;
-       }
-
+        
        ul{
            font-size: 12px;
            text-align: center;
        }
 
-        .box{
-            width: 140px;
-         }
+         .content{
+            flex-wrap: nowrap;
+        }
 
     }    
 
@@ -246,17 +230,7 @@ body{
             height: 100%;
             }
             
-       .title{
-           padding: 0px 30px;
-       }
 
-        .introduction{
-            padding:5px 30px 5px 30px;
-       }
-
-       button{
-       width:76px;
-       }
        ul{
            font-size: 10px;
            text-align: center;
