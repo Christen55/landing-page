@@ -53,18 +53,23 @@ body{
     }
     
     .ad{
-        margin:100px 300px;
         color: #E5E7EB;
         background-color: #3882F6;
-        padding: 30px 80px;
+        padding: 2% 4%;
         border-radius: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        gap:20px;
     }
     .ad button{
         border:2px solid #E5E7EB;  
+    }
+    .screen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex:1;
     }
     .ad .header{
         margin: 0px;
@@ -115,7 +120,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0px 300px;
+        padding: 1% 15%;
     }
     .quote span{
         font-style: normal;
@@ -181,12 +186,7 @@ body{
     
     @media screen and (max-width: 800px){
         .quote{
-            padding: 0px 50px;
             font-size: 30px;
-        }
-        .ad{
-            margin:100px 50px;
-            padding: 30px 50px;
         }
         .blue{
             font-size: 14px;
@@ -213,28 +213,24 @@ body{
        button{
        width:76px;
        }
+
        ul{
            font-size: 12px;
            text-align: center;
        }
-       
+
         .box{
-            width:130px;
-        }
-        .content{
-            flex-wrap:nowrap;
-        }
+            width: 140px;
+         }
 
     }    
 
     @media screen and (max-width: 400px){
         .quote{
-            padding: 0px 50px;
+            
             font-size: 24px;
         }
         .ad{
-            margin:90px 30px;
-            padding: 30px 10px;
             font-size: 12px;
         }
         .blue{
@@ -243,7 +239,8 @@ body{
         .name{
             font-size: 26px;
         }
-        .placeholder{
+        .placeholder
+        {
             text-align: center;
             width: 100%;
             height: 100%;
@@ -279,7 +276,11 @@ body{
         width: 90px;
         height: 90px;
     }
+    .content{
+        flex-wrap: wrap;
+    }
     .box{
-        width:120px;
-        }
-    }  
+        width: 120px;
+    }
+
+    }    
