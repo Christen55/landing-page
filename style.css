@@ -1,210 +1,259 @@
 body{
-height: 1500px;
-margin: 0;
-display: flex;
-flex-direction: column;
-}
-a{
-    text-decoration: none;
-    color: #E5E7EB;
-
-}
-.blue
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
-    font-size: 18px;
-    color: #E5E7EB;
-    flex: 1;
-}
-.footer{
-    background-color: #1F2937;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: #E5E7EB;
-    padding: 10px;
-}
-.name{
-    font-size: 48px;
-    color:#F9FAF8;
-    font-weight: 800;
-}
-
-.header{
-    font-size: 24px;
-    color: #F9FAF8;
-    margin: 30px 0px;
-}
-button{
-    color: #E5E7EB;
-    padding: 8px;
-    background-color: #3882F6;
-    width: 76px;
-    padding: 3px 10px 3px 10px;
-    border-radius: 5px;
-    border:none;
-}
-button:hover{
-    background-color: #073d94;
-    box-shadow: 0 0 10px rgba(19, 18, 18, 0.5);
-}
-
-.ad{
-    margin:100px 300px;
-    color: #E5E7EB;
-    background-color: #3882F6;
-    padding: 30px 80px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.ad button{
-    border:2px solid #E5E7EB;  
-}
-.ad .header{
-    margin: 0px;
-}
-.square{
-    width: 130px;
-    height: 130px;
-    border-radius: 10px;
-    border: 3px solid #3882F6;
-}
-.content{
-    margin:30px;
-    display: flex;  
-    gap:10px;
-    justify-content: center;
-    align-items: center;
-}
-.box{
-    width: 160px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.information
-{
-    text-align: center;
-}
-
-
-.titleContent{
-    padding: 20px;
-    padding-bottom: 0px;
-    font-weight: 800;
-    text-align: center;
-    font-size: 36px;
-    color: #1F2937;
-}
-
-.quote{
-    font-size: 36px;
-    color: #1F2937;
-    background:#E5E7EB;
-    font-style: italic;
-    font-weight: 300;
-    flex:1;
+    height: 1500px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0px 300px;
-}
-.quote span{
-    font-style: normal;
-    display: block;
-    text-align: right;
-    font-size: 18px;
-    font-weight: bold;
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 8px;
-    padding: 0px;
-    margin: 20px 0px;
-}
-.title{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 8px;
-    align-items:flex-end;
-    flex-basis: 30%;
-    
-}
-.text{
-    display:flex;
-    flex-direction: column;
-    gap:8px;
-}
-
-.introduction{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 8px;
-    padding-bottom: 30px;
-    flex-basis: 30%;
-    
-}
-
-.placeholder{
-    width: 100%;
-    height: 50%;
-    background-color: rgb(78, 77, 77);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.white{
-    flex:1;
-    display: flex;
-    flex-direction: column;
-}
-.advert{
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-@media screen and (max-width: 800px){
-    .quote{
-        padding: 0px 50px;
-        font-size: 30px;
     }
-    .ad{
-        margin:100px 50px;
-        padding: 30px 50px;
+    a{
+        text-decoration: none;
+        color: #E5E7EB;
+    
     }
-    .blue{
-        font-size: 14px;
+    .blue
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #1F2937;
+        font-size: 18px;
+        color: #E5E7EB;
+        flex: 1;
+    }
+    .footer{
+        background-color: #1F2937;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: #E5E7EB;
+        padding: 10px;
     }
     .name{
-        font-size: 36px;
+        font-size: 48px;
+        color:#F9FAF8;
+        font-weight: 800;
     }
-    .placeholder{
-        text-align: center;
-        margin-left:-10px;
-        }
+    
+    .header{
+        font-size: 24px;
+        color: #F9FAF8;
+        margin: 30px 0px;
+    }
+    button{
+        color: #E5E7EB;
+        padding: 8px;
+        background-color: #3882F6;
+        width: 76px;
+        padding: 3px 10px 3px 10px;
+        border-radius: 5px;
+        border:none;
+    }
+    button:hover{
+        background-color: #073d94;
+        box-shadow: 0 0 10px rgba(19, 18, 18, 0.5);
+    }
+    
+    .ad{
+        margin:100px 300px;
+        color: #E5E7EB;
+        background-color: #3882F6;
+        padding: 30px 80px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         
-   .ad button{
-   flex:35%
-   }
-   
-   button{
-   width:76px;
-   }
-   
-   ul{
-   margin:10px -10px;
-   }
-}
+    }
+    .ad button{
+        border:2px solid #E5E7EB;  
+    }
+    .ad .header{
+        margin: 0px;
+    }
+    .square{
+        width: 130px;
+        height: 130px;
+        border-radius: 10px;
+        border: 3px solid #3882F6;
+    }
+    .content{
+        margin:30px;
+        display: flex;  
+        gap:10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 160px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .information
+    {
+        text-align: center;
+    }
+    
+    
+    .titleContent{
+        padding: 20px;
+        padding-bottom: 0px;
+        font-weight: 800;
+        text-align: center;
+        font-size: 36px;
+        color: #1F2937;
+    }
+    
+    .quote{
+        font-size: 36px;
+        color: #1F2937;
+        background:#E5E7EB;
+        font-style: italic;
+        font-weight: 300;
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 300px;
+    }
+    .quote span{
+        font-style: normal;
+        display: block;
+        text-align: right;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 8px;
+        padding: 0px;
+        margin: 20px 0px;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        padding:0px 110px;
+        align-items:center;
+        
+        
+    }
+    .text{
+        display:flex;
+        flex-direction: column;
+        gap:8px;
+        flex-basis: 30%;
+    }
+    
+    .introduction{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding:8px 110px 30px 110px;
+        
+    }
+    
+    .placeholder{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(78, 77, 77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 30%;
+    }
+    .white{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+    }
+    .advert{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    
+    @media screen and (max-width: 1600px){
+        .quote{
+            padding: 0px 50px;
+            font-size: 30px;
+        }
+        .ad{
+            margin:100px 50px;
+            padding: 30px 50px;
+        }
+        .blue{
+            font-size: 14px;
+        }
+        .name{
+            font-size: 36px;
+        }
+        .placeholder{
+            text-align: center;
+            
+            }
+            
+       .title{
+           padding: 0px 50px;
+       }
+
+        .introduction{
+            padding:8px 50px 30px 50px;
+       }
+
+       button{
+       width:76px;
+       }
+       ul{
+           font-size: 12px;
+           text-align: center;
+       }
+    }    
+
+    @media screen and (max-width: 1600px){
+        .quote{
+            padding: 0px 50px;
+            font-size: 26px;
+        }
+        .ad{
+            margin:100px 50px;
+            padding: 30px 50px;
+        }
+        .blue{
+            font-size: 14px;
+        }
+        .name{
+            font-size: 24px;
+        }
+        .placeholder{
+            text-align: center;
+            }
+            
+       .title{
+           padding: 0px 50px;
+       }
+
+        .introduction{
+            padding:8px 50px 10px 50px;
+       }
+
+       button{
+       width:76px;
+       }
+       ul{
+           font-size: 10px;
+           text-align: center;
+       }
+       .square{
+        width: 65px;
+        height: 65px;
+    }
+    .header{
+        font-size: 20px;
+    }
+    .subtext{
+        font-size: 16px;
+    }
+    } 
