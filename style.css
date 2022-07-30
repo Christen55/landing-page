@@ -174,6 +174,10 @@ body{
         justify-content: space-between;
     
     }
+    .ad .text{
+        flex: 50%;
+
+    }
     
     @media screen and (max-width: 800px){
         .quote{
@@ -210,22 +214,24 @@ body{
            font-size: 12px;
            text-align: center;
        }
+
     }    
 
     @media screen and (max-width: 400px){
         .quote{
             padding: 0px 50px;
-            font-size: 26px;
+            font-size: 24px;
         }
         .ad{
-            margin:100px 50px;
+            margin:90px 40px;
             padding: 30px 50px;
+            font-size: 14px;
         }
         .blue{
             font-size: 14px;
         }
         .name{
-            font-size: 24px;
+            font-size: 26px;
         }
         .placeholder{
             text-align: center;
@@ -247,8 +253,8 @@ body{
            text-align: center;
        }
        .square{
-        width: 65px;
-        height: 65px;
+        width: 68px;
+        height: 68px;
     }
     .header{
         font-size: 20px;
@@ -256,4 +262,10 @@ body{
     .subtext{
         font-size: 16px;
     }
-    } 
+    .information{
+        font-size:12px ;
+    }
+    .titleContent{
+        font-size: 26px;
+    }
+    }    
