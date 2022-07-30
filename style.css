@@ -217,6 +217,9 @@ body{
            font-size: 12px;
            text-align: center;
        }
+       .content{
+        justify-content: space-between;
+    }
 
     }    
 
@@ -268,7 +271,11 @@ body{
     .titleContent{
         font-size: 26px;
     }
-    .content{
-        justify-content: space-between;
+    .square{
+        width: 100px;
+        height: 100px;
     }
-    }    
+    .content{
+        flex-wrap: wrap;
+    }
+    }  
