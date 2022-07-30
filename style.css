@@ -175,7 +175,7 @@ body{
     
     }
     
-    @media screen and (max-width: 1600px){
+    @media screen and (max-width: 800px){
         .quote{
             padding: 0px 50px;
             font-size: 30px;
@@ -212,7 +212,7 @@ body{
        }
     }    
 
-    @media screen and (max-width: 1600px){
+    @media screen and (max-width: 400px){
         .quote{
             padding: 0px 50px;
             font-size: 26px;
