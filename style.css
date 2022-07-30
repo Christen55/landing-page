@@ -218,7 +218,7 @@ body{
            text-align: center;
        }
        .content{
-        justify-content: space-between;
+        flex-wrap: nowrap;
     }
 
     }    
@@ -272,8 +272,8 @@ body{
         font-size: 26px;
     }
     .square{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .content{
         flex-wrap: wrap;
