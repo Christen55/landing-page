@@ -219,7 +219,7 @@ body{
             font-size: 30px;
         }
         .ad{
-            padding:2% 1%;
+            padding:2% 20px;
         }
     }    
 
@@ -239,6 +239,7 @@ body{
         }
         .content{
             flex-wrap: wrap;
+            justify-content: space-around;
         }
         .box{
             width: 120px;
@@ -255,5 +256,6 @@ body{
         }
         .ad{
             font-size: 12px;
+            padding: 1% 15px;
         }
-    }  
+    }    
