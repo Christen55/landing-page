@@ -218,8 +218,8 @@ body{
         .quote{
             font-size: 30px;
         }
-        .ad{
-            padding:2% 20px;
+        .screen{
+            padding:0% 10%;
         }
     }    
 
@@ -256,6 +256,5 @@ body{
         }
         .ad{
             font-size: 12px;
-            padding: 1% 15px;
         }
     }    
