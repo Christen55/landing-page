@@ -217,9 +217,10 @@ body{
            font-size: 12px;
            text-align: center;
        }
-       .content{
-        flex-wrap: nowrap;
-    }
+       
+        .box{
+            width:140px;
+        }
 
     }    
 
@@ -275,7 +276,7 @@ body{
         width: 90px;
         height: 90px;
     }
-    .content{
-        flex-wrap: wrap;
-    }
+    .box{
+        width:120px;
+        }
     }  
