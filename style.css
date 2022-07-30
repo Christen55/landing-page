@@ -221,6 +221,9 @@ body{
         .box{
             width:130px;
         }
+        .content{
+            flex-wrap:nowrap;
+        }
 
     }    
 
